@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A121888A1D3E7A8F0047B2BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12188891D3E7A8F0047B2BD /* main.m */; };
+		A121888D1D3E7A8F0047B2BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A121888C1D3E7A8F0047B2BD /* AppDelegate.m */; };
+		A12188901D3E7A8F0047B2BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A121888F1D3E7A8F0047B2BD /* ViewController.m */; };
+		A12188931D3E7A8F0047B2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12188911D3E7A8F0047B2BD /* Main.storyboard */; };
+		A12188951D3E7A8F0047B2BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12188941D3E7A8F0047B2BD /* Images.xcassets */; };
+		A12188981D3E7A8F0047B2BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12188961D3E7A8F0047B2BD /* LaunchScreen.xib */; };
+		A12188A41D3E7A900047B2BD /* SMARTSMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12188A31D3E7A900047B2BD /* SMARTSMSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A121889E1D3E7A900047B2BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A121887C1D3E7A8F0047B2BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12188831D3E7A8F0047B2BD;
+			remoteInfo = SMARTSMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12188841D3E7A8F0047B2BD /* SMARTSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMARTSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12188881D3E7A8F0047B2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12188891D3E7A8F0047B2BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A121888B1D3E7A8F0047B2BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A121888C1D3E7A8F0047B2BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A121888E1D3E7A8F0047B2BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A121888F1D3E7A8F0047B2BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A12188921D3E7A8F0047B2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12188941D3E7A8F0047B2BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A12188971D3E7A8F0047B2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A121889D1D3E7A900047B2BD /* SMARTSMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMARTSMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12188A21D3E7A900047B2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12188A31D3E7A900047B2BD /* SMARTSMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMARTSMSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12188811D3E7A8F0047B2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A121889A1D3E7A900047B2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A121887B1D3E7A8F0047B2BD = {
+			isa = PBXGroup;
+			children = (
+				A12188861D3E7A8F0047B2BD /* SMARTSMS */,
+				A12188A01D3E7A900047B2BD /* SMARTSMSTests */,
+				A12188851D3E7A8F0047B2BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12188851D3E7A8F0047B2BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12188841D3E7A8F0047B2BD /* SMARTSMS.app */,
+				A121889D1D3E7A900047B2BD /* SMARTSMSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12188861D3E7A8F0047B2BD /* SMARTSMS */ = {
+			isa = PBXGroup;
+			children = (
+				A121888B1D3E7A8F0047B2BD /* AppDelegate.h */,
+				A121888C1D3E7A8F0047B2BD /* AppDelegate.m */,
+				A121888E1D3E7A8F0047B2BD /* ViewController.h */,
+				A121888F1D3E7A8F0047B2BD /* ViewController.m */,
+				A12188911D3E7A8F0047B2BD /* Main.storyboard */,
+				A12188941D3E7A8F0047B2BD /* Images.xcassets */,
+				A12188961D3E7A8F0047B2BD /* LaunchScreen.xib */,
+				A12188871D3E7A8F0047B2BD /* Supporting Files */,
+			);
+			path = SMARTSMS;
+			sourceTree = "<group>";
+		};
+		A12188871D3E7A8F0047B2BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12188881D3E7A8F0047B2BD /* Info.plist */,
+				A12188891D3E7A8F0047B2BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A12188A01D3E7A900047B2BD /* SMARTSMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12188A31D3E7A900047B2BD /* SMARTSMSTests.m */,
+				A12188A11D3E7A900047B2BD /* Supporting Files */,
+			);
+			path = SMARTSMSTests;
+			sourceTree = "<group>";
+		};
+		A12188A11D3E7A900047B2BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12188A21D3E7A900047B2BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12188831D3E7A8F0047B2BD /* SMARTSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12188A71D3E7A900047B2BD /* Build configuration list for PBXNativeTarget "SMARTSMS" */;
+			buildPhases = (
+				A12188801D3E7A8F0047B2BD /* Sources */,
+				A12188811D3E7A8F0047B2BD /* Frameworks */,
+				A12188821D3E7A8F0047B2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMARTSMS;
+			productName = SMARTSMS;
+			productReference = A12188841D3E7A8F0047B2BD /* SMARTSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A121889C1D3E7A900047B2BD /* SMARTSMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12188AA1D3E7A900047B2BD /* Build configuration list for PBXNativeTarget "SMARTSMSTests" */;
+			buildPhases = (
+				A12188991D3E7A900047B2BD /* Sources */,
+				A121889A1D3E7A900047B2BD /* Frameworks */,
+				A121889B1D3E7A900047B2BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A121889F1D3E7A900047B2BD /* PBXTargetDependency */,
+			);
+			name = SMARTSMSTests;
+			productName = SMARTSMSTests;
+			productReference = A121889D1D3E7A900047B2BD /* SMARTSMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A121887C1D3E7A8F0047B2BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = strathmore;
+				TargetAttributes = {
+					A12188831D3E7A8F0047B2BD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A121889C1D3E7A900047B2BD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A12188831D3E7A8F0047B2BD;
+					};
+				};
+			};
+			buildConfigurationList = A121887F1D3E7A8F0047B2BD /* Build configuration list for PBXProject "SMARTSMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A121887B1D3E7A8F0047B2BD;
+			productRefGroup = A12188851D3E7A8F0047B2BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12188831D3E7A8F0047B2BD /* SMARTSMS */,
+				A121889C1D3E7A900047B2BD /* SMARTSMSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12188821D3E7A8F0047B2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12188931D3E7A8F0047B2BD /* Main.storyboard in Resources */,
+				A12188981D3E7A8F0047B2BD /* LaunchScreen.xib in Resources */,
+				A12188951D3E7A8F0047B2BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A121889B1D3E7A900047B2BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12188801D3E7A8F0047B2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12188901D3E7A8F0047B2BD /* ViewController.m in Sources */,
+				A121888D1D3E7A8F0047B2BD /* AppDelegate.m in Sources */,
+				A121888A1D3E7A8F0047B2BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12188991D3E7A900047B2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12188A41D3E7A900047B2BD /* SMARTSMSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A121889F1D3E7A900047B2BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12188831D3E7A8F0047B2BD /* SMARTSMS */;
+			targetProxy = A121889E1D3E7A900047B2BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A12188911D3E7A8F0047B2BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12188921D3E7A8F0047B2BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12188961D3E7A8F0047B2BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12188971D3E7A8F0047B2BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12188A51D3E7A900047B2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A12188A61D3E7A900047B2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12188A81D3E7A900047B2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMARTSMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A12188A91D3E7A900047B2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMARTSMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A12188AB1D3E7A900047B2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMARTSMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMARTSMS.app/SMARTSMS";
+			};
+			name = Debug;
+		};
+		A12188AC1D3E7A900047B2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMARTSMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMARTSMS.app/SMARTSMS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A121887F1D3E7A8F0047B2BD /* Build configuration list for PBXProject "SMARTSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12188A51D3E7A900047B2BD /* Debug */,
+				A12188A61D3E7A900047B2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12188A71D3E7A900047B2BD /* Build configuration list for PBXNativeTarget "SMARTSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12188A81D3E7A900047B2BD /* Debug */,
+				A12188A91D3E7A900047B2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A12188AA1D3E7A900047B2BD /* Build configuration list for PBXNativeTarget "SMARTSMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12188AB1D3E7A900047B2BD /* Debug */,
+				A12188AC1D3E7A900047B2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A121887C1D3E7A8F0047B2BD /* Project object */;
+}

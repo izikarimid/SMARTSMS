@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C665C834-2DE2-4F94-9B5D-5DF8868AAFCE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SMARTSMS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EB799356463D4DF2EEC9E6092258EDDFCAEE0C6F</key>
+		<string>https://github.com/izikarimid/SMARTSMS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Code/SMARTSMS/SMARTSMS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EB799356463D4DF2EEC9E6092258EDDFCAEE0C6F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/izikarimid/SMARTSMS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EB799356463D4DF2EEC9E6092258EDDFCAEE0C6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EB799356463D4DF2EEC9E6092258EDDFCAEE0C6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SMARTSMS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
